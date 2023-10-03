@@ -1,0 +1,53 @@
+body {
+    background-image: url("./tiger.jpg");
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.nav {
+    display: flex;
+    gap: 5%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.item:hover {
+    background-color: #DF9040;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.title {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+h1 {
+    color: #fff;
+    font-size: 8rem;
+    text-shadow: 4px 4px 4px #DF9040;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    position: absolute;
+    top: 87%;
+    font-size: 35px;
+    color: #fff;
+}
+
+footer span {
+    color: #DF9040;
+}
+
+
